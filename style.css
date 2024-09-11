@@ -139,17 +139,16 @@ header section .left button {
     transition: all .3s;
 }
 
-.ui-kit:hover{
+.buttons:hover .ui-kit{
     background-color: aliceblue;
     color: #111B47;
     border-radius: 2px;
 }
 
-.ui-kit:hover + .learn-more{
+.ui-kit:hover ~ .learn-more{
     background-color: #111B47;
     color: aliceblue;
 }
-
 
 .learn-more{
     background-color:transparent;
@@ -158,14 +157,12 @@ header section .left button {
     transition: all .3s;
 }
 
-.learn-more:hover{
+.buttons:hover .learn-more{
     background-color: #111B47;
     color: aliceblue;
 }
 
-/* didn't work for second button */
-
-.learn-more:hover + .ui-kit{
+.learn-more:hover ~ .ui-kit{
     background-color: transparent;
     color: #111B47;
 }
