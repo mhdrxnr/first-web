@@ -145,11 +145,6 @@ header section .left button {
     border-radius: 2px;
 }
 
-.ui-kit:hover + .learn-more{
-    background-color: #111B47;
-    color: aliceblue;
-}
-
 .learn-more{
     background-color:transparent;
     color: #111B47;
@@ -160,11 +155,6 @@ header section .left button {
 .buttons:hover .learn-more{
     background-color: #111B47;
     color: aliceblue;
-}
-
-.learn-more:hover + .ui-kit{
-    background-color: transparent;
-    color: #111B47;
 }
 
 .learn-more,
