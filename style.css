@@ -54,6 +54,7 @@ header nav .list ul {
 header nav .list ul li a{
     color: #505F98;
     font-size: 16px;
+    padding: 5px 10px;
     transition: all .3s;
 }
 
@@ -505,6 +506,7 @@ footer .bottom .navfooter ul  {
 footer .bottom .navfooter ul li a{
     font-size: 14px;
     color: #b0b4b8;
+    padding: 5px 10px;
     transition: all .3s;
 }
 
@@ -527,6 +529,7 @@ footer .bottom .social-media img{
 }
 footer .bottom .social-media .face{
     transition: all .3s;
+    padding: 5px 7px;
 }
 footer .bottom .social-media .face:hover{
     background-color: #3b5998;
@@ -537,6 +540,7 @@ footer .bottom .social-media .face:hover{
 
 footer .bottom .social-media .twit{
     transition: all .3s;
+    padding: 5px 7px;
 }
 footer .bottom .social-media .twit:hover{
     background-color: #00aced;
@@ -547,6 +551,7 @@ footer .bottom .social-media .twit:hover{
 
 footer .bottom .social-media .yout{
     transition: all .3s;
+    padding: 5px 7px;
 }
 footer .bottom .social-media .yout:hover{
     background-color: #bb0000;
@@ -557,6 +562,7 @@ footer .bottom .social-media .yout:hover{
 
 footer .bottom .social-media .insta{
     transition: all .3s;
+    padding: 5px 7px;
 }
 footer .bottom .social-media .insta:hover{
     background-color: #dd2a7b;
@@ -567,6 +573,7 @@ footer .bottom .social-media .insta:hover{
 
 footer .bottom .social-media .in{
     transition: all .3s;
+    padding: 5px 7px;
 }
 footer .bottom .social-media .in:hover{
     background-color: #007bb6;
